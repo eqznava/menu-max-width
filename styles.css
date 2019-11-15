@@ -1,0 +1,39 @@
+.Body{
+  margin:0;
+}
+
+.Header{
+  height: 80px;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position:relative;
+}
+
+.Header_boton{
+  height: 35px;
+  width: 35px;
+  background-color: violet;
+  cursor: pointer;
+  position: absolute;
+}
+.Header_boton:hover{
+box-shadow: 0 0 4px #000;
+}
+
+.Header_menu{
+  height: 200px;
+  width: 100%;
+  background-color: rgba(0,255,253, 0.3);
+  position: relative;
+  top: 200px;
+  transition: 500ms;
+  z-index: -1;
+  border:2px solid silver;
+}
+
+.Header_menu.is-active{
+  top: -200px;
+}
