@@ -28,12 +28,12 @@ box-shadow: 0 0 4px #000;
   width: 100%;
   background-color: rgba(0,255,253, 0.3);
   position: relative;
-  top: 200px;
+  top: -200px;
   transition: 500ms;
   z-index: -1;
   border:2px solid silver;
 }
 
 .Header_menu.is-active{
-  top: -200px;
+  top: 200px;
 }
